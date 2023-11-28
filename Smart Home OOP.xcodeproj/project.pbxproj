@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B38567922B15F3AD00E73096 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38567912B15F3AD00E73096 /* main.swift */; };
+		B38567992B15F42200E73096 /* device.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38567982B15F42200E73096 /* device.swift */; };
+		B385679B2B15FC8700E73096 /* deviceTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B385679A2B15FC8700E73096 /* deviceTypes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		B385678E2B15F3AD00E73096 /* Smart Home OOP */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Smart Home OOP"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B38567912B15F3AD00E73096 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B38567982B15F42200E73096 /* device.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = device.swift; sourceTree = "<group>"; };
+		B385679A2B15FC8700E73096 /* deviceTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deviceTypes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		B38567852B15F3AD00E73096 = {
 			isa = PBXGroup;
 			children = (
+				B385679A2B15FC8700E73096 /* deviceTypes.swift */,
 				B38567902B15F3AD00E73096 /* Smart Home OOP */,
 				B385678F2B15F3AD00E73096 /* Products */,
 			);
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				B38567912B15F3AD00E73096 /* main.swift */,
+				B38567982B15F42200E73096 /* device.swift */,
 			);
 			path = "Smart Home OOP";
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B385679B2B15FC8700E73096 /* deviceTypes.swift in Sources */,
 				B38567922B15F3AD00E73096 /* main.swift in Sources */,
+				B38567992B15F42200E73096 /* device.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
